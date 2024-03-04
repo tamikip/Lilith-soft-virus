@@ -25,3 +25,31 @@
 欢迎提出问题和建议，也欢迎贡献代码。
 ---
 _最后更新于: 2024年3月4日_
+
+# README.md
+## Lilith - Your Virtual Assistant
+Lilith is an interactive virtual assistant that engages with the user through pop-up windows, offers music playback, and includes some hidden "surprises." Depending on the day count since the program was first run, Lilith will display different dialogues, simulating the process of building a relationship with the user.
+### Features
+- **Interactive Dialogue**: Lilith will have different conversations with the user based on the day count of the program.
+- **Music Playback**: Lilith will ask the user if they want to listen to music together and play a preset music file.
+- **Hidden Features**: Under specific conditions, Lilith will trigger special events, such as simulating an accidental restart of the computer.
+### Usage Instructions
+1. Ensure you have Python installed on your system, along with the following Python libraries:
+   - `tkinter`
+   - `requests`
+   - `playsound`
+2. Clone or download this repository to your computer.
+3. Run the `main.py` file to launch Lilith.
+4. Interact with the pop-up windows as prompted.
+### Notes
+- The program is designed to display different dialogues each day it runs, with the logic controlled by reading the `data.txt` file within the code.
+- The included `lilis.mp3`, `1.wav`, `2.wav`, and `3.wav` are music files for playback. Make sure these files are in the same directory as `main.py`.
+- The program will create a batch file on the first run and attempt to add itself to the Windows startup items.
+### License
+This project is licensed under the [MIT License](LICENSE), allowing you to use, modify, and distribute it freely.
+### Author
+- [Your Name](https://github.com/your_username)
+### Contributions
+Issues and suggestions are welcome, as well as contributions to the code.
+---
+_Last updated: March 4, 2024_
