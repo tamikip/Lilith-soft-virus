@@ -1,16 +1,27 @@
-### Hi there 👋
-
-<!--
-**tamikip/tamikip** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# README.md
+## 莉莉丝 - 你的虚拟助手
+莉莉丝是一个有趣的虚拟助手，她会以弹出窗口的形式与用户互动，提供音乐播放功能，并有一些隐藏的“惊喜”。用户每天首次运行程序时，莉莉丝会根据不同的天数展示不同的对话内容，模拟与用户建立联系的过程。
+### 功能特点
+- **互动对话**：莉莉丝会根据程序运行的天数与用户进行不同内容的对话。
+- **音乐播放**：莉莉丝会询问用户是否愿意一起听歌，并播放预定的音乐文件。
+- **隐藏功能**：在特定条件下，莉莉丝会触发特殊事件，如模拟意外重启电脑。
+### 使用说明
+1. 确保你的系统中安装了Python，以及以下Python库：
+   - `tkinter`
+   - `requests`
+   - `playsound`
+2. 克隆或下载此仓库到你的电脑上。
+3. 运行`main.py`文件以启动莉莉丝。
+4. 根据弹出窗口的提示进行互动。
+### 注意事项
+- 程序设计为每天运行时展示不同的对话，具体逻辑在代码中通过读取`data.txt`文件来控制。
+- 程序中包含的`lilis.mp3`、`1.wav`、`2.wav`和`3.wav`是用于播放的音乐文件，请确保这些文件与`main.py`位于同一目录下。
+- 程序在第一次运行时会创建一个批处理文件，并尝试将自己添加到Windows的开机启动项中。
+### 许可证
+本项目采用[MIT许可证](LICENSE)，你可以自由地使用、修改和分发。
+### 作者
+- [Your Name](https://github.com/your_username)
+### 贡献
+欢迎提出问题和建议，也欢迎贡献代码。
+---
+_最后更新于: 2024年3月4日_
